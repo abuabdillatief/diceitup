@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class class="wrapper-out">
+
+       
+
+        <div class="zindex wrapper clearfix">
+            <img class="dice-img" src="dice-it-up.png" alt="">
+            <img class="dice-img2" src="dice-it-up.png" alt="">
+
+            <div class="zindex player-0-panel active">
+                <div class="zindex player-name" id="name-0">Player 1</div>
+                <div class="zindex player-score" id="score-0">0</div>
+                <div class="zindex player-current-box">
+                    <div class="zindex player-current-label">Current</div>
+                    <div class="zindex player-current-score" id="current-0">0</div>
+                </div>
+            </div>
+            <div class="zindex player-1-panel">
+                <div class="zindex player-name" id="name-1">Player 2</div>
+                <div class="zindex player-score" id="score-1">0</div>
+                <div class="zindex player-current-box">
+                    <div class="zindex player-current-label">Current</div>
+                    <div class="zindex player-current-score" id="current-1">0</div>
+                </div>
+            </div>
+
+            <button class="zindex btn-new"><i class="ion-ios-plus-outline"></i>Click Here To Start A New game</button>
+            <button class="zindex btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="zindex btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+            <input type="text" placeholder="Winning Score" class="winning-score">
+            <img src="dice-1.png" alt="" class="zindex dice" id="dice-1">
+            <img src="dice-1.png" alt="" class="zindex dice" id="dice-2">
+            <img class="dice-title" src="dice-head-title.png" alt="">
+            <div class="define-score">
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="new.js"></script>
+</body>
+
+</html>
