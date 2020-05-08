@@ -194,14 +194,14 @@ width: 25rem;}
 .dice-img {
     width: 10rem;
     position: absolute;
-    left:18.5%;
+    left:68.5%;
     top: 35%;
     transform: scaleX(-1);
 }
 .dice-img2 {
     width: 10rem;
     position: absolute;
-    left:68.5%;
+    left:18.5%;
     top: 35%;
 }
 
